@@ -1,0 +1,417 @@
+h1{
+    text-align: center;
+}
+header{
+    background: fixed #bd6983;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+ nav ul{
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+ }
+ nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 6px;
+ }
+ .banner{
+    color: rgb(242, 243, 243);
+    background-color: #7e394e;
+    text-align: center;
+    padding: 20px 0;
+ }
+ 
+ 
+
+ section.banner img
+ {
+    width:100%;
+ }
+.main-banner {
+    border-bottom: 3px dotted #eee;
+    padding-top: 40px;
+    padding-bottom: 30px
+}
+
+.main-banner .left-content .thumb img {
+    width: 100%;
+    overflow: hidden
+}
+
+.main-banner .left-content .inner-content {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+}
+
+.main-banner .left-content .inner-content h4 {
+    color:#7a3572;
+    margin-top: -50%;
+    font-size: 52px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-left:auto;
+}
+
+
+.main-banner .right-content .right-first-image {
+    margin-bottom: 28.5px
+}
+
+.main-banner .right-content .right-first-image .thumb {
+    position: relative;
+    text-align: center;
+   
+}
+
+.main-banner .right-content .right-first-image .thumb img {
+    width: 100%;
+    overflow: hidden;
+    max-height: 222px;
+}
+
+.main-banner .right-content .right-first-image .thumb .inner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center
+}
+
+.main-banner .right-content .right-first-image .thumb .inner-content h4 {
+    color: #722859;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px
+}
+
+.main-banner .right-content .right-first-image .thumb .inner-content p {
+    font-size: 16px;
+    color: #1a1518;
+    font-family: 'Playfair Display', serif;
+    font-style: italic
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content {
+    position: absolute;
+    top: 15px;  
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    text-align: center;
+    background-color: rgba(221, 36, 107, 0.97);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s
+}
+
+.main-banner .right-content .right-first-image .thumb:hover .hover-content {
+    opacity: 1;
+    visibility: visible
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+
+.main-banner .right-content .right-first-image .thumb .hover-content p {
+    color: #fff;
+    padding: 0 20px;
+    margin-bottom: 20px
+}
+
+
+
+.about_section .img-box {
+    position: relative;
+    padding-bottom: 35px;
+}
+
+.about_section .img-box img {
+    width: 100%;
+    position: relative
+}
+
+.about_section .detail-box p {
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+}
+
+.about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #fd9c6b;
+    color: #fff;
+    border-radius: 0;
+    border: 1px solid #fd9c6b;
+    font-family: 'Playfair Display', serif;
+    transition: all .2s
+}
+
+.about_section .detail-box a:hover {
+    background-color: transparent;
+    color: #fd9c6b
+}
+#product h2{
+    text-align: center; 
+    color:  #722859;
+    font-size: 45px;
+}
+#product p{
+    text-align: center;
+    color:  #a71e79;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+#product img{
+    width: 200px;
+}
+
+.heading_container h2 {
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    padding-top: 10px;
+}
+#categories h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+#categories h1,h2 {
+    font-family: 'Playfair Display', serif;
+}
+.detail-box {
+    padding-top: 10%;
+}
+.detail-box p{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer_section {
+    width: 100%;
+    float: left;
+    background-color: #7e394e;
+    height: auto;
+    padding: 95px 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.useful_text {
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.footer_text {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer_menu {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.footer_menu ul {
+    margin: 0;
+    padding: 0
+}
+
+.footer_menu li {
+    font-size: 14px;
+    color: #fff
+}
+
+.footer_menu li a {
+    color: #fff
+}
+
+.footer_menu li a:hover {
+    color: #f76d37
+}
+.contact_class li{
+    color: #fff;
+}
+
+.bannar-xyz{
+    background: url(xyz.jpeg);
+    background-size:100%;
+    height: 590px;
+    background-color: #7e394e;
+}
+.bannar-xyz h4{
+    color: #722859;
+    padding: 20px 25px;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.bannar-xyz p{
+    color: #a71e79;
+    padding: 0 25px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.women_products h3{
+    text-align: center; 
+    color:  #722859;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+.women_products p{
+    text-align: center;
+    color:  #a71e79;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.col-lg-4 img{
+    max-height: 50%;
+    width: 80%;
+} 
+.col-lg-4 h4{
+   padding-left: 50px;
+    font-weight: bold;
+        
+}
+.col-lg-4 h5{
+    padding-left: 50px;
+    font-weight: bold;
+        
+}
+.traditional h3{
+    text-align: center; 
+    color:  #722859;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+.traditional p{
+    text-align: center;
+    color:  #a71e79;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.Formal h3{
+    text-align: center; 
+    color:  #722859;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+}
+.Formal p{
+    text-align: center;
+    color:  #a71e79;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.bannar-m{
+    background: url(m.jpg);
+    background-size:100%;
+    height: 590px;
+    background-repeat: no-repeat;
+    background-color: #7e394e;
+    
+} 
+.bannar-m h4{
+    color: #722859;
+    padding: 20px 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+.bannar-m p{
+    font-family: 'Playfair Display', serif;
+    color: #a71e79;
+    padding: 0 25px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.bannar-k{
+    background: url(kids.jpg);
+    background-size:100%;
+    height: 590px;
+    background-color: #7e394e;
+    background-repeat: no-repeat;
+    
+} 
+.bannar-k h4{
+    color: #722859;
+    padding-left:600px;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+.bannar-k p{
+    color: #a71e79;
+    padding-left: 700px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.bannar-a{
+    background-image: url(accesories.jpg);
+    background-size:100%;
+    height: 590px;
+    font-family: 'Playfair Display', serif;
+    background-color: #7e394e;
+    background-repeat: no-repeat;
+    
+} 
+.bannar-a h4{
+    color: #722859;
+    padding: 20px 800px;
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.bannar-a p{
+    color: #3a0227;
+   padding-left: 750px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.col-lg-3 h4{
+    padding-left: 50px;
+     font-weight: bold;
+         
+ }
+ .col-lg-3 h5{
+     padding-left: 50px;
+     font-weight: bold;}
+         
